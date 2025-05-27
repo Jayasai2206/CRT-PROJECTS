@@ -43,9 +43,9 @@ with open('disease_predictor.pkl', 'wb') as f:
 This project aims to simplify early diagnosis in healthcare. It uses logistic regression, a classification algorithm, to predict diseases based on features like symptoms, age, and gender. The data is preprocessed to remove non-numerical or irrelevant fields, and encoded for training the model. The model is then evaluated and saved for deployment.
 
 # 5. Output
-- Accuracy score of the model.
-- Classification report showing precision, recall, and F1-score.
-- A saved .pkl file that can be used in healthcare systems to make predictions on new patient data.
+![image](https://github.com/user-attachments/assets/5a9d6bf6-986b-40a0-8fc7-9871e15b84b8)
+
+
 
 # 6. Further Research
 - Expand dataset to include more symptoms and rare diseases.
@@ -114,9 +114,8 @@ model.fit(X_train, y_train, epochs=5, validation_data=(X_test, y_test))
 This project takes raw movie reviews, cleans them using HTML parsing and stopword removal, and converts them into padded sequences. An LSTM-based neural network is trained to detect sentiment, providing a powerful text classification pipeline. The model learns to associate patterns in text with positive or negative sentiments.
 
 # 5. Output
-- Accuracy of the sentiment analysis model.
-- Trained model that can classify any new review as positive or negative.
-- Can be extended to provide sentiment scores for batches of reviews.
+
+    ![image](https://github.com/user-attachments/assets/0dc8ac8a-6216-4ade-910f-a47889db64e0)
 
 # 6. Further Research
 - Use pre-trained word embeddings (like GloVe or Word2Vec).
@@ -204,9 +203,9 @@ plt.show()
 The goal of the project is to develop a classification model that can accurately distinguish between dog and cat images. The dataset is split into training and validation sets, with images being resized and normalized. A CNN model is constructed with multiple convolutional, pooling, and dense layers. The model is trained using binary crossentropy as the loss function and accuracy as the metric.
 
 # 5. Output
-- Accuracy and loss plots
-- Example predictions on validation/test images showing whether the image is classified as a dog or a cat
-- Final model accuracy
+
+![image](https://github.com/user-attachments/assets/f710d6b5-56bf-4ccd-92e5-49c4745acb5b)
+
 
 # 6. Further Research
 - Improve accuracy using more advanced architectures like ResNet, Inception, or EfficientNet
