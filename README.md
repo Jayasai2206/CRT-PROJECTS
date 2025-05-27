@@ -115,7 +115,7 @@ This project takes raw movie reviews, cleans them using HTML parsing and stopwor
 
 # 5. Output
 
-    ![image](https://github.com/user-attachments/assets/0dc8ac8a-6216-4ade-910f-a47889db64e0)
+    ![image](https://github.com/user-attachments/assets/42992548-8a37-4048-b774-aec074fdf839)
 
 # 6. Further Research
 - Use pre-trained word embeddings (like GloVe or Word2Vec).
